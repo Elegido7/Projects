@@ -5,38 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flamin Bites</title>
   </head>
-<body>
-    <h1>Flamin Bites Menu</h1>
+<body style="background-color: blanchedalmond;">
+    <h1 style="color: blue;">Flamin Bites Menu</h1>
+<hr>
+    <h2 style="color: rgb(10, 184, 27);">Staters</h2>  
 
-    <h2>Appetizers</h2>  
+  <ul type="square">
+    <li>          
 
-  <ul>
+      <strong>Caprese Salad</strong>       
+    
+         <p>Fresh tomatoes, mozzarella, and basil drizzled with balsamic glaze.</p> 
+    
+           </li>   
     <li>
         
-        <strong>Caprese Salad</strong>       
+        <strong>Chilli Cauliflower</strong>       
       
-           <p>Fresh tomatoes, mozzarella, and basil drizzled with balsamic glaze.</p> 
+           <p>Chinese style cripsy Cauliflower tossed in Chilli sauce and sweetened with Capsicum onion.</p> 
       
              </li>  
     <li>
         
-        <strong>Caprese Salad</strong>       
+        <strong>Brocolli Tikki</strong>       
       
-           <p>Fresh tomatoes, mozzarella, and basil drizzled with balsamic glaze.</p> 
+           <p>A grilled and mashed Brocolli snack served hot stuffed with sweet and hot cottage cheese.</p> 
       
              </li>     
     <li>
         
-        <strong>Caprese Salad</strong>       
+        <strong>Aloo Tikki</strong>       
       
-           <p>Fresh tomatoes, mozzarella, and basil drizzled with balsamic glaze.</p> 
+           <p>A grilled and mashed potato snack served hot stuffed with sweet and hot cottage cheese..</p> 
       
              </li>  
     <li>
 
-  <strong>Caprese Salad</strong>       
+  <strong>Dahi kebab</strong>       
 
-     <p>Fresh tomatoes, mozzarella, and basil drizzled with balsamic glaze.</p> 
+     <p>The delicacy prepared with hung yorghut spices and a special stuffing will melt in your mouth</p> 
 
        </li>    
 
@@ -44,9 +51,9 @@
 
    </ul>  
 
-  <h2>Main Courses</h2> 
+  <h2 style="color: rgb(10, 184, 27);">Main Courses</h2> 
 
-   <ul>   
+   <ul type="circle">   
 
      <li>      
 
@@ -54,13 +61,34 @@
 
        <p>Salmon fillet seasoned and grilled to perfection, served with lemon butter sauce.</p>   
 
-     </li>     
+     </li>
+     <li>      
+
+      <strong>Chicken Bulgogi</strong>     
+
+       <p>Onion, Garlic, Seesame oil, Sayenne, Chicken Breast, Soy sauce.</p>   
+
+     </li>
+     <li>      
+
+      <strong>Shrimp Scampl</strong>     
+
+       <p>Jumbo Shrimp sauteed in white wine, butter and garlic.</p>   
+
+     </li>  
+     <li>      
+
+      <strong>Fried Calamari</strong>     
+
+       <p>Breaded Calamari, lightly fried in canola oil. Served with a side of marinara.</p>   
+
+     </li>         
 
    <!-- Add two more main course items with descriptions --> 
 
    </ul>   
 
- <h2>Desserts</h2>  
+ <h2 style="color: rgb(10, 184, 27);">Desserts</h2>  
 
   <ul>     
 
@@ -70,7 +98,37 @@
 
        <p>Assorted fruits and marshmallows served with rich chocolate fondue.</p>    
 
+    </li>
+    <li>    
+
+        <strong>Coconut Crème Brulee</strong>     
+
+       <p>French style custard made with coconut milk
+        caramelized sugar, fresh fruit.</p>    
+
+    </li>  
+    <li>    
+
+        <strong>Blueberry & Lemon Cheesecake</strong>     
+
+       <p>Lemon curd, vanilla chantilly.</p>    
+
+    </li>  
+    <li>    
+
+        <strong>Torta di mele Calda</strong>     
+
+       <p>Warm Apple and Sultana Pie
+        with Vanilla Ice Cream or double Cream.</p>    
+
     </li>    
+    <li>    
+
+      <strong>Apple Crumble Sundae</strong>     
+
+     <p>Vanilla & caramel ice cream, dolce de leche, apple compote, crumble.</p>    
+
+  </li>   
 
     <!-- Add two more dessert items with descriptions -->  
 
