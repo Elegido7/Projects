@@ -12,22 +12,22 @@
   <a href="#work">Work</a>       
   <a href="#resume">Resume</a>
   <a href="#contact">Contact</a>
+  <form>
+    <input type="text" name="search" placeholder="Search.." style="padding: 5px; text-align: center; margin-left: 60%;">
+  </form>
+  
 </nav>
-<body>
-    <img src="https://img.freepik.com/free-vector/man-shows-gesture-great-idea_10045-637.jpg?w=740&t=st=1708275751~exp=1708276351~hmac=d6b09933a80734297b2e7322c9ea58bc8699a3eab16e491e513011dc8e34d366" width="500" height="600" id="Me" style="border-style: solid;"/>
+<body>    
     <div class="Par1">
-        <h4 style="font-size: larger; color: darkviolet; text-decoration-line: underline;">Dennis at your Service</h4>
+        <h4 style="font-size: x-large; color: darkviolet; text-decoration-line: underline;">Dennis at your Service</h4>
             <p>Your go to designer and provider of any IT related solutions you need.</p>
             <p>You Think, Imagine or Dream it and we will create it. Welcome to <b>Den-IT</b></p>
             <p>Feel free to take a look at my latest projects on the web portfolio page.</p>
         <br>
-        <img src="images/Artificial_intelligence_Reasoning,_problem-solving.jpg" alt="Artificial-Intelligence-Background" width="600px" height="450px"/>
-    </div>
-    <br>
-    <!--local linking of imaging-->
-    <br>
-        <img src="https://revenuesandprofits.com/wp-content/uploads/2022/11/What-Services-Does-an-IT-Company-Typically-Provide.jpg" alt="The IT industry" width="600px" height="450px"/>
-    <br>
+        <img class="Pic" src="images/Artificial_intelligence_Reasoning,_problem-solving.jpg" alt="Artificial-Intelligence-Background"/>
+        <!--local linking of imaging-->
+    <img style="float: right; margin-right: 15%;" class="Pic" src="https://revenuesandprofits.com/wp-content/uploads/2022/11/What-Services-Does-an-IT-Company-Typically-Provide.jpg" alt="The IT industry"/>
+      </div>
     <h4>Elegido</h4>
     <div id="about" style="font-family: palatino;">
     <hr>
@@ -46,15 +46,15 @@
     <hr/>
     <h2 id="work" style="color: blue;">Work completed</h2>
     <h3>1. Website Development</h3>
-    <img src="https://vimeo.com/blog/wp-content/uploads/2021/05/Hero.gif" alt="" width="1000px" height="700px"/>
+    <img class="kazi" src="https://vimeo.com/blog/wp-content/uploads/2021/05/Hero.gif" alt="" width="1000px" height="700px"/>
     <p><strong>*Originals</strong></p>
     
     <h3>2. Landing page design</h3>
-    <img src="https://www.mailerlite.com/img/containers/assets/features/landing-pages/landing-page-builder.jpg/984bf5e554f88c7559d25336f9b88a49.webp" alt="" width="700px" height="500px">
+    <img class="kazi" src="https://www.mailerlite.com/img/containers/assets/features/landing-pages/landing-page-builder.jpg/984bf5e554f88c7559d25336f9b88a49.webp" alt="">
     <p><strong>*Welcome landing page</strong></p>
     
     <h3>3. Website Diagnosis</h3>
-    <img src="https://w0.peakpx.com/wallpaper/113/446/HD-wallpaper-stethoscope-on-keyboard-computer-repair-stethoscope-on-leptope-it-service-stethoscope-laptop-repair.jpg" alt="stethoscope on keyboard, Computer Repair"/>
+    <img class="kazi" src="https://w0.peakpx.com/wallpaper/113/446/HD-wallpaper-stethoscope-on-keyboard-computer-repair-stethoscope-on-leptope-it-service-stethoscope-laptop-repair.jpg" alt="stethoscope on keyboard, Computer Repair"/>
     <p><strong>*Diagnosis</strong></p>
           
     <hr>
@@ -99,27 +99,29 @@
     </table>
     <br>
     </div>
-    <h3 style="color: blue; padding-left: 10px;">Contact</h3>
-    <div style="display: flex; margin-top: 5px; padding: 10px;">
+    <h3 id="contact" style="color: blue; padding-left: 5%; font-size: xx-large;">Contact Us</h3>
+    
+    <div style="display: flex; padding: 5px; margin-left: 5%;">
         <form action="" method="post" enctype="">
         <label>Fullname</label>
         <br>
-        <input type="text" name="Name" placeholder="name"/>
+        <input id="Data" type="text" name="Name" placeholder="Name"/>
         <br/>
         <label>Email</label>
         <br>
-        <input type="email" name="email" placeholder="Email"/>
+        <input id="Data" type="email" name="email" placeholder="Email"/>
         <br/>
         <label>Gender</label>
         <br>
         <select>
           <option value="M"> Male</option>
           <option value="F">Female</option>
+          <option value="O">Other</option>
         </select>
         <br/>
-        <textarea name="description" rows="5" cols="18">Express yourself</textarea>
+        <textarea name="description" rows="5" cols="18">Speak to us</textarea>
         <br/>
-        <input type="submit" value="Submit Form"/>
+        <input type="submit" value="Submit Form" style="width: 30%;margin-top: 2%; background-color: blanchedalmond;padding: 10px;"/>
       </form>
     </div>
       <br>
