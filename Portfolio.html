@@ -4,32 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <nav>
-        <a href="#">Home</a>        
-        <a href="#about">About</a> 
-        <a href="#work">Work</a>       
-        <a href="#resume">Resume</a>
-        <a href="#contact">Contact</a>
-    </nav>
+    <link rel="stylesheet" href="portfolio.css">
 </head>
-<hr>
-<body style="margin-left: 2%;">
-    <img src="https://img.freepik.com/free-vector/man-shows-gesture-great-idea_10045-637.jpg?w=740&t=st=1708275751~exp=1708276351~hmac=d6b09933a80734297b2e7322c9ea58bc8699a3eab16e491e513011dc8e34d366" width="500" height="600"/>
-    </section>
-    <h4>Hello, I'm Dennis</h4>
-    <p>Your go to designer and provider of any IT related solutions you need.</p>
-    <p>You Think, Imagine or Dream it and we will create it. Welcome to <b>Den-IT</b></p>
-    <p>Feel free to take a look at my latest projects on the web portfolio page.</p>
+<nav>
+  <a href="#" class="work">Home</a>        
+  <a href="#about" class="work">About</a> 
+  <a href="#work">Work</a>       
+  <a href="#resume">Resume</a>
+  <a href="#contact">Contact</a>
+</nav>
+<body>
+    <img src="https://img.freepik.com/free-vector/man-shows-gesture-great-idea_10045-637.jpg?w=740&t=st=1708275751~exp=1708276351~hmac=d6b09933a80734297b2e7322c9ea58bc8699a3eab16e491e513011dc8e34d366" width="500" height="600" id="Me" style="border-style: solid;"/>
+    <div class="Par1">
+        <h4 style="font-size: larger; color: darkviolet; text-decoration-line: underline;">Dennis at your Service</h4>
+            <p>Your go to designer and provider of any IT related solutions you need.</p>
+            <p>You Think, Imagine or Dream it and we will create it. Welcome to <b>Den-IT</b></p>
+            <p>Feel free to take a look at my latest projects on the web portfolio page.</p>
+        <br>
+        <img src="images/Artificial_intelligence_Reasoning,_problem-solving.jpg" alt="Artificial-Intelligence-Background" width="600px" height="450px"/>
+    </div>
     <br>
-    <img src="images/Artificial_intelligence_Reasoning,_problem-solving.jpg" alt="Artificial-Intelligence-Background" width="600px" height="450px"/>
-    <br>
-</div>
     <!--local linking of imaging-->
     <br>
         <img src="https://revenuesandprofits.com/wp-content/uploads/2022/11/What-Services-Does-an-IT-Company-Typically-Provide.jpg" alt="The IT industry" width="600px" height="450px"/>
     <br>
     <h4>Elegido</h4>
     <div id="about" style="font-family: palatino;">
+    <hr>
      <section>
         <h3 style="color: blue;">About Den-IT</h3>
     <p>At Den-IT we have had 5 years of creative work offering a wide range of customer solutions</p>
@@ -42,7 +43,7 @@
     <video src="Video/Corporate video for IT company.mp4" height="500" width="600" controls autoplay>Corporate Video</video>
   <h3>Corporate Video</h3>
 </div>
-    <br>
+    <hr/>
     <h2 id="work" style="color: blue;">Work completed</h2>
     <h3>1. Website Development</h3>
     <img src="https://vimeo.com/blog/wp-content/uploads/2021/05/Hero.gif" alt="" width="1000px" height="700px"/>
@@ -56,8 +57,8 @@
     <img src="https://w0.peakpx.com/wallpaper/113/446/HD-wallpaper-stethoscope-on-keyboard-computer-repair-stethoscope-on-leptope-it-service-stethoscope-laptop-repair.jpg" alt="stethoscope on keyboard, Computer Repair"/>
     <p><strong>*Diagnosis</strong></p>
           
-    <br>
-    <div style="margin-left: 5%;">
+    <hr>
+    <div style="margin-left: 2%;">
      <h2 id="resume" style="color: blue;">Resume</h2>
      <p>we have expertise in the following areas;</p>
 
@@ -97,8 +98,10 @@
     <!--table design to represent more areas of profession that compliment programming-->
     </table>
     <br>
-    <h3 id="contact" style="color: blue;">Contact</h3>
-    <form action="" method="post" enctype="">
+    </div>
+    <h3 style="color: blue; padding-left: 10px;">Contact</h3>
+    <div style="display: flex; margin-top: 5px; padding: 10px;">
+        <form action="" method="post" enctype="">
         <label>Fullname</label>
         <br>
         <input type="text" name="Name" placeholder="name"/>
