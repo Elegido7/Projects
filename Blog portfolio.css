@@ -1,5 +1,5 @@
 body{
-background-color:rgb(138, 231, 231);
+background-color:rgb(137, 249, 249);
 opacity: 50;
 }
 
@@ -44,6 +44,20 @@ nav a.contact{
 .Par1{
     font-family: 'Times New Roman', Times, serif;
     text-align: justify;
-    
+
 }
 
+table{
+    width: 20%;
+    height: 10%;
+    text-align: left;
+    border-color: rgb(226, 67, 9);
+    border-radius: 5px;
+}
+tr:hover{
+    background-color:lemonchiffon;
+}
+th {
+    background-color: #0daf48;
+    color: white;
+  }
